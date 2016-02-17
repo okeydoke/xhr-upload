@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "name": "xhr-upload",
+  "main": "src/index.js",
+  "description": "simple xhr upload functionality",
+  "author": "Jesse Lamb <jesse@okeydoke.net>",
+  "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/okeydoke/xhr-upload.git"
+  },
+  "devDependencies": {
+    "dotfiles": "git://github.com/okeydoke/dotfiles.git#master"
+  }
+}
