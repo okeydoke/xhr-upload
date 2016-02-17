@@ -14,7 +14,7 @@
 	onCompleteFn: is called once the upload is complete and is passed the 
 	              JSON.parse()'d' responseText as a parameter
 */
-export function xhrUpload(url, data, updatePercentageFn, onCompleteFn) {
+export default function xhrUpload(url, data, updatePercentageFn, onCompleteFn) {
 
 	var xhr = new XMLHttpRequest();
 
